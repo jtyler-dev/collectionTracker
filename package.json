@@ -4,6 +4,9 @@
   "description": "application what catalouges and tracks your collection",
   "main": "index.js",
   "scripts": {
+    "start": "npm run build-app:dev",
+    "build-app:dev": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
+    "build-app:prod": "webpack -p && cp src/index.html dist/index.html",
     "start-server": "node ./server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
