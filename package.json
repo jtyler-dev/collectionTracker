@@ -1,0 +1,15 @@
+{
+  "name": "collection-tracker",
+  "version": "1.0.0",
+  "description": "application what catalouges and tracks your collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@jtyler-dev:jtyler-dev/collectionTracker.git"
+  },
+  "author": "jtyler",
+  "license": "ISC"
+}
